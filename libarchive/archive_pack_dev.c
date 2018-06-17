@@ -52,6 +52,7 @@ __RCSID("$NetBSD$");
 #include <string.h>
 #endif
 #ifdef HAVE_SYS_TYPES_H
+#include <sys/sysmacros.h>
 #include <sys/types.h>
 #endif
 #ifdef HAVE_SYS_STAT_H
